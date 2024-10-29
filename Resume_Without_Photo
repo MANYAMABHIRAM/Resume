@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[a4paper,top = 0.4in,bottom = 0.3in,left = 0.5in,right = 0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{paracol}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{enumerate}
+\usepackage{fontspec}
+\usepackage{titlesec} 
+\usepackage{xhfill}
+\setmainfont{Arial}
+\newcommand\ruleafter[1]{#1~\xrfill[.4ex]{1pt}}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\fontsize{14}{14}}{\thesection}{1em}{\ruleafter}
+\begin{document}
+\pagestyle{empty}
+\hspace{-7mm}
+{\fontsize{30}{30}\selectfont \textbf{Manyam Abhiram}} \\
+\vspace{2.5mm}
+\includegraphics[width=3.5mm]{gm.png} 
+{\fontsize{9.5}{9.5}\selectfont \href{mailto:manyamabhiram04@gmail.com}{manyamabhiram04@gmail.com}}
+\hspace{2.5mm}
+\includegraphics[width=3.5mm]{phone.png}
+{\fontsize{9.5}{9.5}\selectfont +91 9640343114}
+\hspace{2.598mm}
+\includegraphics[width=3.5mm]{github-mark.png} 
+{\fontsize{9.5}{9.5}\selectfont \href{https://www.github.com/MANYAMABHIRAM}{github.com/MANYAMABHIRAM}}
+\hspace{2.5mm}
+\includegraphics[width=3.5mm]{image.png} 
+{\fontsize{9.5}{9.5}\selectfont \href{https://www.linkedin.com/in/ram1204}{linkedin.com/in/ram1204}}
+\vspace{-12mm}
+\section*{Career Objective}
+\vspace{-3mm}
+\begin{justify}
+Dedicated Computer Science engineering student eager to apply coding expertise and analytical skills within a dynamic IT environment. Known for a strong work ethic, quick adaptability, and a passion for problem-solving. Looking to gain valuable real-world experience while actively staying updated with the latest industry trends. Driven to contribute effectively to team goals and deliver impactful solutions. Committed to continuous learning and growth in the tech field.\end{justify}
+\vspace{-8mm}
+\section*{Education}
+\vspace{-3mm}
+{\fontsize{11}{11}\selectfont \textbf{B.Tech in Computer Science and Engineering}}, R.V.R \& J.C College of Engineering
+\hfill2021 - 2025\\[0.5mm]
+\noindent
+CGPA:9.06/10\\[0.5mm]
+{\fontsize{11}{11}\selectfont \textbf{Intermediate in M.P.C}}, Tirumala Junior College
+\hfill2019 - 2021\\
+\hspace{-1mm}
+Percentage:96.2\%\\[0.5mm]
+{\fontsize{11}{11}\selectfont \textbf{Secondary Education}}, Sri Chaitanya E.M School
+\hfill2018 - 2019\\[0.5mm]
+\hspace{-1mm}
+CGPA:9.5/10
+\vspace{-5mm}
+\section*{Skills}
+\vspace{-4mm} % Adjust spacing
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textbf{Programming Languages:} & Python, C, Java. \\[0.1mm]
+\textbf{DBMS:} & Oracle SQL, MySQL, PL/SQL. \\[0.1mm]
+\textbf{Web Technologies:} & HTML, CSS, JavaScript, Bootstrap. \\[0.1mm]
+\textbf{Data Visualization:} &  Tableau, Power BI. \\[0.1mm]
+\textbf{Tools:} & Git \& GitHub, NumPy, Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn. \\
+ \end{tabularx}
+\vspace{-8mm}
+\section*{Internship}
+\vspace{-3mm} % Adjust spacing
+\textbf{Data Science Intern}, Twilearn PVT. LTD. \hfill May 2023 - July 2023 \\
+\vspace{-6mm} % Adjust spacing
+\begin{itemize}[leftmargin=*,itemsep = 0.4mm]
+    \item Data analysis was carried out using Python packages such as Pandas, which improved trend identification and data quality.
+    \item Matplotlib was used to create visualizations that facilitate data-driven decision-making by effectively communicating findings.
+\end{itemize}
+\vspace{-7mm}
+\section*{Projects}
+\vspace{-3mm}
+\textbf{Child Safety IoT Device}
+\vspace{-2mm}
+\begin{itemize}[leftmargin=*,itemsep = 0.3mm]
+    \item HTML, CSS, PHP, MySQL, Python
+    \item Developed an IoT device to record a child’s real-time location, integrating a responsive web application for map visualization.
+    \item Implemented a Python to process location data, facilitating seamless communication between the device and the server for continuous tracking.
+\end{itemize}
+\vspace{-1mm}
+\textbf{IPL Score Predictor}
+\vspace{-2mm}
+\begin{itemize}[leftmargin=*,itemsep = 0.3mm]
+    \item Tensorflow, Keras, Seaborn, Pandas
+    \item Developed a machine learning model using Keras and TensorFlow to predict the total score of an IPL team based on the selected opponent and venue.
+    \item Employed Seaborn and Scikit-learn for data visualization and model evaluation, enhancing the accuracy and interpretability of predictions.
+\end{itemize}
+\vspace{-7mm}
+\section*{Certifications}
+\vspace{-3mm}
+\begin{itemize}[leftmargin=*,itemsep = 0.4mm]
+    \item \textbf{Career Essentials in Generative AI} Professional Certificate, awarded by Microsoft and LinkedIn
+    \item \textbf{Google Data Analytics} Certificate, awarded by Google.
+    \item \textbf{Git Training} Certificate, conferred by Simplilearn.
+\end{itemize}
+\vspace{-8mm}
+\section*{Achievements}
+\vspace{-3mm}
+\begin{itemize}[leftmargin=*,itemsep = 0.4mm]
+    \item Achieved the \textbf{2\textsuperscript{nd} prize} in a Blitz (quiz) competition held at V.R. Siddhartha Engineering College.
+    \item Earned the \textbf{5\textsuperscript{th} prize} in the Quanta coding contest conducted at V.R. Siddhartha Engineering College.
+    \item \textbf{Finalist} in Udvikash, a 24-hour hackathon held at R.V.R \& J.C College of Engineering.
+\end{itemize}
+\vspace{-8mm}
+\section*{Positions of Responsibility \& Extracurricular Activities}
+\vspace{-3mm}
+\begin{itemize}[leftmargin=*,itemsep = 0.4mm]
+    \item Served as \textbf{Treasurer} of the ACM Student Chapter, organizing various events and activities for members.
+    \item Organized several technical events, fostering student engagement and collaboration.
+\end{itemize}
+%\section*{Coding Profiles}
+%\vspace{-3mm}
+%\begin{tabular}{p{2cm} p{5cm}}
+%    \textbf{LeetCode:} & leetcode.com/u/manyamabhiram04 \\ [0.6ex]
+%    \textbf{CodeChef:} & codechef.com/users/abhiram12224 \\ [0.6ex]
+%    \textbf{HackerRank:} & hackerrank.com/profile/manyamabhiram04 \\ [0.6ex]
+%\end{tabular}
+%{\fontsize{11}{11}\selectfont \href{https://leetcode.com/u/manyamabhiram04/}{Leetcode}}
+%\hspace{10mm}
+%\includegraphics[width=5mm]{codechef.png} 
+%{\fontsize{12}{12}\selectfont %\href{https://www.codechef.com/users/abhiram12224}{Codechef}}
+%\hspace{10mm}
+%\includegraphics[width=5mm]{hackerrank.png} 
+%{\fontsize{12}{12}\selectfont %\href{https://www.hackerrank.com/profile/manyamabhiram04}{Hackerrank}}
+\begin{center}
+    Visit my portfolio at https://manyamabhiram.github.io/Portfolio/
+\end{center}
+\end{document}
